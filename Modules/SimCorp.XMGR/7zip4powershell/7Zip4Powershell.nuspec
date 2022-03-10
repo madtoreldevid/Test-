@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>7Zip4Powershell</id>
+    <version>2.1.0</version>
+    <authors>Thomas Freudenberg</authors>
+    <owners>N/A</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/thoemmi/7Zip4Powershell/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/thoemmi/7Zip4Powershell</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/thoemmi/7Zip4Powershell/master/Assets/7zip4powershell.png</iconUrl>
+    <description>Powershell module for creating and extracting 7-Zip archives</description>
+    <releaseNotes></releaseNotes>
+    <copyright>2013-2021 Thomas Freudenberg</copyright>
+    <tags>powershell 7zip 7-zip zip archive extract compress PSEdition_Core PSEdition_Desktop Windows PSModule PSIncludes_Cmdlet PSCmdlet_Expand-7Zip PSCmdlet_Compress-7Zip PSCmdlet_Get-7Zip PSCmdlet_Get-7ZipInformation PSCommand_Expand-7Zip PSCommand_Compress-7Zip PSCommand_Get-7Zip PSCommand_Get-7ZipInformation</tags>
+  </metadata>
+</package>

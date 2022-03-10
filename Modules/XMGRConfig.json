@@ -1,0 +1,39 @@
+{
+        "Realms":[
+                {
+                "RealmId": "Full",
+                "ClaimIds": ["scdom\\adtr"],
+                "InstalationGroupIds": ["all"],
+                "Permissions": "Full"
+                },
+                {
+                "RealmId": "ReadOnly",
+                "ClaimIds": ["scdom\\adtr"],
+                "InstalationGroupIds": ["all"],
+                "Permissions": "ReadOnly"
+               }
+        ],
+        "Installations":[
+        {
+                "InstallationId": "TESTInstance",
+                "WebApi": "https://test.com:44020"
+                },
+                {
+                "InstallationId": "SecondTESTInstance",
+                "WebApi": "https://secodnTest.com:44020"
+                }
+        ],
+        "InstallationGroups":[
+        {
+                "InstallationGroupId": "DEV",
+                "InstallationIds": ["TESTInstance"],
+                "ChildGroupIds": []
+                },
+                {
+                "InstallationGroupId": "TEST",
+                "InstallationIds": ["SecondTESTInstance"],
+                "ChildGroupIds": ["DEV"]
+                }
+        ]
+     
+}
